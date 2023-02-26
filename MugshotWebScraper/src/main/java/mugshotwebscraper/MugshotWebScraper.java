@@ -11,7 +11,7 @@ import java.util.Scanner;
  * Main Driver of the program. Uses a Jsoup object called HTMLParse to scrape inmate
  * data from Dane county sheriff website. Uses SQLite to store the information with the database
  * driver object.
- * @author Alex
+ * @author Alex Ceithamer
  */
 public class MugshotWebScraper {
     //main instance object will be used for moving code from main to other methods.
