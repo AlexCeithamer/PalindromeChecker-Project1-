@@ -19,7 +19,7 @@ public class MugshotWebScraper {
     static DatabaseDriver db = new DatabaseDriver();
     static HTMLParse scraper = new HTMLParse();
     static Inmate inmateObj = null;
-    static LinkedList <String>inmateLinks = new LinkedList<>();
+    static LinkedList <String>inmateLinks = new LinkedList<>(); 
     
     public static void main(String[] args) {
         mainInstance.updateDatabase();
